@@ -1,4 +1,5 @@
 // load plugin
+var fs = require('fs');
 var gulp = require('gulp'),
     $ = require('gulp-load-plugins')({
         pattern: ['gulp-*', 'gulp.*'],
@@ -20,7 +21,6 @@ var paths = {
 // module of me
 var app = require('./app/index.js');
 gulp.task('app', function(){
-    var fs = require('fs');
     fs.exists('build', function(exists){
         if(!exists){fs.mkdirSync('build', 0777);}
     })

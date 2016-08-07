@@ -35,6 +35,8 @@ WebVR は、WebGL や WebAudio、あるいは WebRTC などと同じ **JavaScrip
 
 よくある誤解として、ウェブブラウザで VR を実現すること＝ WebVR だと捉えられてしまうことが多いです。しかし、実際にはウェブブラウザで VR を実現することそのものは、WebVR とは *実はなんの関係もありません*。
 
+<a href="https://w3c.github.io/webvr/" target="_blank">WebVR</a>
+
 ---
 
 #### WebVR API
@@ -47,7 +49,9 @@ WebVR は、WebGL や WebAudio、あるいは WebRTC などと同じ **JavaScrip
 
 #### MobileVR on the Web
 
-※実装例
+![](001.jpg)
+
+<a href="http://lafrenchtouch.martell.com/" target="_blank">Martell</a>
 
 ---
 
@@ -85,7 +89,7 @@ WebVR API が行ってくれることは、大別してふたつあります。
 * HMD の両眼ディスプレイに映像を出力できる
 * それ以上でもそれ以下でもない
 
-※HMD はヘッドマウントディスプレイの略です
+<span class="capt">HMD はヘッドマウントディスプレイの略です</span>
 
 ---
 
@@ -109,7 +113,7 @@ WebVR API は HMD との連携を可能にする API ですから、対応する
 
 ブラウザを準備したり、HMD を手に入れる必要があったり……現状では他の API と比較してかなり敷居が高いと言えますね。
 
-※当然ながら VR Ready な PC も必要です
+<span class="capt">当然ながら VR Ready な PC も必要です</span>
 
 ---
 
@@ -189,5 +193,7 @@ WebGL なんかもそうですが、いわゆる普通の JavaScript の開発�
 
 
 おわり
+
+---
 
 
