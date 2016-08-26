@@ -1,6 +1,6 @@
 
-# slide_webvrbegin201608
+# slide_square_free_201608
 
-webvr beginners
+square free seminar
 
 
